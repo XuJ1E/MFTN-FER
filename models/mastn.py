@@ -4,7 +4,7 @@
 # Time       ：2023/11/2 17:31
 # Author     ：XuJ1E
 # version    ：python 3.8
-# File       : cswin.py
+# File       : mstn.py
 """
 
 import math
@@ -81,7 +81,7 @@ class Block(nn.Module):
         return x
 
 
-class PyramidViT(nn.Module):
+class MsTN(nn.Module):
     def __init__(self, stage, base_dim=128, depth=3, num_classes=7, drop_path_rate=.0):
         super().__init__()
 
@@ -126,7 +126,7 @@ if __name__ == '__main__':
     x2 = torch.rand((1, 196, 512))
     x3 = torch.rand((1, 49, 1024))
 
-    model = PyramidViT(stage=3)
+    model = MsTN(stage=3)
     x3 = model(x1, x2, x3)
     # print(model)
     print(x3.shape)
