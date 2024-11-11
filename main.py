@@ -79,6 +79,7 @@ def main():
         else:
             print("=> no checkpoint found at '{}'".format(args.resume))
     cudnn.benchmark = True
+    
     if args.evaluate is None:
         if args.data_type == 'RAFDB':
             train_dataset = datasets.ImageFolder(os.path.join(args.dataset, 'train'),
