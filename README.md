@@ -92,7 +92,7 @@ Fig. 4(a) RAF-DB 	\;	(b) ExpW 	\;	(c) AffectNet-7 	\;	(d) AffectNet-8
 
 ## 8、Grad_CAM of different expressions on some examples face from AffectNet dataset
 <div align=center>
-Grad-CAM for MFER on RAF-DB dataset
+Grad-CAM for MFER on AffectNet dataset
 </div>
 <div align=center>
 <img src="./asset/Main/feature_map.png" width="500" height="480" />
