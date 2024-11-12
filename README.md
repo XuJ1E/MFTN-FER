@@ -95,7 +95,7 @@ Fig. 4(a) RAF-DB 	\;	(b) ExpW 	\;	(c) AffectNet-7 	\;	(d) AffectNet-8
 Grad-CAM for MFER on RAF-DB dataset
 </div>
 <div align=center>
-<img src="./asset/Main/feature_map.png" width="500" height="500" />
+<img src="./asset/Main/feature_map.png" width="500" height="480" />
 
 
 Fig. 5 Grad-CAM
