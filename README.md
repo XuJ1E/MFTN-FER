@@ -1,3 +1,11 @@
+----
+- [ ] Submit the remain code to GitHub.
+- [ ] Submit paper to XXX.
+- [x] Reject by XXXXX on 2024/2/12.
+- [x] Submit code to GitHub on 2023/12/20 (used to named PATER)
+
+----
+
 # <div align=center> Multi-stage Feature-aware Transformer Network for Facial Expression Recognition </div>
 
 <div align=center>
@@ -19,9 +27,9 @@ Fig. 2 Architecture of Adaptive Context Attention mechanism
 
 ## 1、Preparation
 - Download pre-trained model weight of `MSCeleb`(coming soon...).
-- Download [RAF-DB](http://www.whdeng.cn/raf/model1.html) dataset and extract the `raf-basic` dir to `./data`.
-- Download [AffectNet](http://mohammadmahoor.com/affectnet/) dadtaset and extract the `AffectNet` dir to `./data`.
-- Download [ExpW](http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html) dadtaset and extract the `ExpW` dir to `./data`.
+- Download [RAF-DB](http://www.whdeng.cn/raf/model1.html) dataset and extract the `raf-basic` dir to `./dataset`.
+- Download [AffectNet](http://mohammadmahoor.com/affectnet/) dadtaset and extract the `AffectNet` dir to `./dataset`.
+- Download [ExpW](http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html) dadtaset and extract the `ExpW` dir to `./dataset`.
 - Then `preprocess` the datasets as follow:
 ## 2、Data preparation:
 - We use the face alignment codes in [face.evl](https://github.com/ZhaoJ9014/face.evoLVe/#Face-Alignment) to align face images first.
@@ -41,8 +49,8 @@ Fig. 2 Architecture of Adaptive Context Attention mechanism
 
 ## 3、Weight
 
-The main code and checkpoints of MFTN-FER for FER will come soon!
-
+- The remain code will release after the paper was accepted!
+- The checkpoint of MFTN-FER for FER and the checkpoint of Backbone for MS-Celeb-1M will release after the paper was accepted!
 
 ## 4、Training
 
