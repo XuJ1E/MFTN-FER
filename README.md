@@ -1,7 +1,7 @@
 ----
 - [ ] Submit the remain code to GitHub.
 - [ ] Submit paper to XXX.
-- [x] Reject by XXXXX on 2024/2/12.
+- [x] Reject by TCSVT on 2024/2/12.
 - [x] Submit code to GitHub on 2023/12/20 (used to named PATER)
 
 ----
@@ -35,7 +35,7 @@ Fig. 2 Architecture of Adaptive Context Attention mechanism
 - We use the face alignment codes in [face.evl](https://github.com/ZhaoJ9014/face.evoLVe/#Face-Alignment) to align face images first.
 - the `aligned` face struct as follow:
 ```
-  - data/raf-db/
+  - dataset/raf-db/
 		 train/
 		     train_00001_aligned.jpg	# aligned by MTCNN
 		     train_00002_aligned.jpg	# aligned by MTCNN
@@ -49,13 +49,12 @@ Fig. 2 Architecture of Adaptive Context Attention mechanism
 
 ## 3、Weight
 
-- The remain code will release after the paper was accepted!
-- The checkpoint of MFTN-FER for FER and the checkpoint of Backbone for MS-Celeb-1M will release after the paper was accepted!
+- The remain code and the checkpoints will release after the paper was accepted!
 
 ## 4、Training
 
 ```
-CUDA_VISIBLE_DEVICES=0 python main.py --help
+CUDA_VISIBLE_DEVICES=0,1 python main.py --help
 ```
 
 ## 5、Results
@@ -109,6 +108,8 @@ Grad-CAM for MFER on AffectNet dataset
 Fig. 5 Grad-CAM
 </div>
 
+## License
+Our research code is released under the MIT license. See [LICENSE](./LICENSE) for details.
 
 ## Acknowledgement
 Thanks for the code of the following:\
